@@ -1,7 +1,6 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +9,19 @@
   "license": "ISC",
   "dependencies": {
     "atom-autocomplete": "^1.0.0",
-    "mongodb": "^3.0.1"
-  }
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditiarun/node-todo-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aditiarun/node-todo-api/issues"
+  },
+  "homepage": "https://github.com/aditiarun/node-todo-api#readme",
+  "description": ""
 }
